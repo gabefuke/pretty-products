@@ -2,14 +2,34 @@ html {
   box-sizing: border-box;
   font-family: Karma, serif;
   line-height: 1.5;
-
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
+body {
+  margin: 0;
+}
+
+main {
+
+}
+
+img {
+}
 
 
+ol {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+ol li {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
 
 
 
