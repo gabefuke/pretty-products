@@ -1,23 +1,21 @@
 html {
   box-sizing: border-box;
-  font-family: Karma, serif;
+  font-family: 'Karma', serif;
   line-height: 1.5;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
 body {
   margin: 0;
 }
 
-main {
-
+h2 {
+  font-family: "Oswald", sans-serif;
+  color: #6f00e7;
 }
-
-img {
-}
-
 
 ol {
   display: grid;
@@ -29,7 +27,17 @@ ol li {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  border: 3px solid #987ffa;
+  border-radius: 6px;
 }
+
+ul li {
+  display: flex;
+  flex-direction: row;
+
+}
+
+
 
 
 
