@@ -15,6 +15,7 @@ body {
 h2 {
   font-family: "Oswald", sans-serif;
   color: #6f00e7;
+  text-align: center;
 }
 
 ol {
@@ -31,9 +32,31 @@ ol li {
   border-radius: 6px;
 }
 
-ul li {
+ul {
   display: flex;
-  flex-direction: row;
+  justify-content: space-between;
+}
+
+p {
+  text-align: center;
+}
+
+ul li:first-child {
+  background-color: #6f00e7;
+  text-decoration: none;
+  text-align: left;
+  border-radius: 3em;
+  padding: .5em 1.5em .7em;
+}
+
+ul li:not(first-child) {
+
+
+}
+
+span {
+  font-family: "Oswald", sans-serif;
+  color: #fff;
 
 }
 
